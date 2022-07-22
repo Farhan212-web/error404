@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&display=swap');
+
+.App {
+    padding: 20px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.App h3 {
+    font-weight: bold;
+}

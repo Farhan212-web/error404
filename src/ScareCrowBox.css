@@ -1,0 +1,25 @@
+.ScareCrowBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ScareCrowBox h1 {
+    line-height: 2;
+    font-size: 3rem;
+    width: 85%;
+}
+
+.ScareCrowBox p {
+    font-size: 1.2rem;
+}
+
+.ScareCrowBox img {
+    width: 300px;
+}
+
+@media(max-width: 600px) {
+    .ScareCrowBox {
+        flex-wrap: wrap;
+    }
+}
